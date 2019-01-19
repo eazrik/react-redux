@@ -1,8 +1,12 @@
 import React from 'react';
 
-const HomeComponent = () => {
+const HomeComponent = ({
+    movie
+}) => {
     return (
-        <div>Home Component</div>
+        <div>
+            <img src={movie.Poster} alt="Poster" />
+        </div>
     )
 }
 
